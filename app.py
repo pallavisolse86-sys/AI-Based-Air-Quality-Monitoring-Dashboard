@@ -12,7 +12,7 @@ st.set_page_config(
 
 st.title("AI-Based Air Quality Monitoring Dashboard")
 
-df = pd.read_csv("air_quality.csv")
+df = pd.read_csv("air_quality_data.csv")
 
 st.subheader("Air Quality Dataset")
 
